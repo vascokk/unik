@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210114
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update -y && \
     apt-get install -y parted kpartx curl qemu-utils dosfstools opam m4 pkg-config && \
